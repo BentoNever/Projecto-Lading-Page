@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+  <title>Spotec</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <!--Menu Superior da Landing Page-->
+  <div id="menu-superior">
+    <a
+      href="https://ed.escoladnc.com.br/formacoes-g/?utm_source=google&utm_medium=paid&utm_campaign=hr-ga-geral-266-1&utm_content=hr-ga-geral-266-1-1&utm_term=dnc&utm_term=dnc&utm_campaign=%5B266%5D%5BOP%5D%5BHR%5D%5BForma%C3%A7%C3%B5es+Geral%5D&utm_source=adwords&utm_medium=ppc&hsa_acc=1620955800&hsa_cam=21154122651&hsa_grp=163559659391&hsa_ad=695739214942&hsa_src=g&hsa_tgt=kwd-25652790&hsa_kw=dnc&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=EAIaIQobChMI15qJ_8PPhgMVFZ5aBR2-ags9EAAYASAAEgJKSvD_BwE">
+
+      <img id="logo" src="./imagens/logo.svg" alt="error" srcset="" />
+    </a>
+    <h1 id="titulo-menu-superior">
+      Dê os primeiros passos da <br />
+      sua carreira em Tecnologia
+    </h1>
+    <p id="texto-menu-superior">
+      Inscreva-se no curso gratuito de Introdução à <br />Tecnologia da DNC
+      School e aprenda os principais <br />
+      fundamentos para construir experiências efetivas.
+    </p>
+
+    <p />
+  </div>
+  <!--Menu Informacional da Landing Page-->
+  <div id="menu-informacional">
+    <p class="texto-informativo">
+      <img src="./icones/icone-certificado.svg" class="icones" id="Certificado" alt="error" srcset="" />
+      Certificado de conclusão
+    </p>
+    <p class="texto-informativo">
+      <img src="./icones/icone-relogio.svg" class="icones" id="relogio" alt="error" srcset="" />
+      4 horas de conteúdo
+    </p>
+    <p class="texto-informativo">
+      <img src="./icones/icone-camera.svg" class="icones" id="camera" alt="error" srcset="" />
+      Aulas online gravadas
+    </p>
+  </div>
+  <!--Secção de Video-->
+  <div id="div-secao-video">
+    <iframe id="video" width="502" height="283" src="https://www.youtube.com/embed/DdUImDg38ng"
+      title="Aluno DNC: Bem-vindo a Plataforma Jumpy | Escola DNC" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+    </iframe>
+    <div>
+      <h1 id="titulo-secao-video">
+        Aprenda com especialistas e <br />
+        comece seu primeiro projeto
+      </h1>
+      <br />
+      <p id="texto-secao-video">
+        Conheça o processo de desenvolvimento e entenda como utilizar <br />
+        os principais métodos e ferramentas da área para resolver <br />
+        problemas complexos. <br />
+        <br />
+        Conquiste seu certificado e desenvolva um projeto prático para <br />
+        aplicar seus conhecimentos.
+      </p>
+    </div>
+  </div>
+  <!--Carrosel-->
+  <div id="carrossel">
+    <h1 id="titulo-carrossel">
+      Mais de 500 alunos já iniciaram seus estudos
+    </h1>
+    <!--Secção dos cards-->
+    <div id="div-cards">
+      <img id="seta-esquerda" onclick="Esquerda()" class="seta" src="./icones/seta-esquerda.svg" alt="error" />
+      <img id="Leonardo" class="cards" src="./cards/Leonardo.svg" alt="error" />
+      <img id="Bruna" src="./cards/Bruna.svg" alt="error">
+      <img id="Samanta" class="cards" src="./cards/Samanta.svg" alt="error" />
+      <img id="seta-direita" onclick="Direita()" class="seta" src="./icones/seta-direita.svg" alt="error" />
+    </div>
+  </div>
+  <!--Secção dos Formulários-->
+  <div id="div-formulario">
+    <h1 id="titulo-formulario">
+      Comece agora mesmo e dê o próximo passo da sua carreira
+    </h1>
+    <form action="https://api.sheetmonkey.io/form/tVaQatkhc3tPZM77EheGj9" method="post">
+      <input type="" placeholder="Nome" name="Name" required /><br />
+      <input type="email" placeholder="Email" name="Email" required /><br />
+      <input type="number" placeholder="Telefone" name="Telefone" required /><br />
+      <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+      <button type="submit">Acesse a ementa grátis</button>
+      <a
+        href="https://www.google.com.br/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiu2YT_w8-GAxXCp7AFHTxKCRYQFnoECCsQAQ&url=https%3A%2F%2Fassets-global.website-files.com%2F66143495d3e01ad1a958beed%2F662bcea675351ac5fb014bf3_%255BEMENTA%2520NOVA%2520ID%255D%2520Desenvolvedor%2520Front-End-compressed_1.pdf&usg=AOvVaw2iIavs1wvZSgJ2JILa4406&opi=89978449">
+      </a>
+    </form>
+  </div>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,166 @@
+* {
+  margin: 0px;
+  font-family: "Inter";
+}
+
+#logo {
+  margin: 5px;
+  margin-left: 50px;
+}
+
+#titulo-menu-superior {
+  color: #ffffff;
+  font-family: "Inter";
+  margin-top: 0px;
+  margin-left: 172px;
+}
+
+#texto-menu-superior {
+  color: #ffffff;
+  font-family: "Inter";
+  margin-top: 15px;
+  margin-left: 172px;
+  padding-bottom: 35px;
+}
+
+#menu-superior {
+  background-color: black;
+  background-image: url(imagens/fundo-menu-superior.svg);
+  border-radius: 8px;
+  margin: 2px 0px 13px 0px;
+}
+
+#menu-informacional {
+  background-color: #eaece5;
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+  border-radius: 8px;
+  margin-top: 5px;
+}
+
+.icones {
+  margin: 50px 0px 50px 100px;
+  padding: 25px;
+}
+
+.texto-informativo {
+  display: flex;
+  align-items: center;
+}
+
+#div-secao-video {
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+}
+
+#titulo-secao-video {
+  color: #247ba0;
+  margin: 20px 80px 0px 0px;
+}
+
+#video {
+  margin: 20px 0px 20px 100px;
+  border-radius: 8px;
+}
+
+#video2 {
+  margin: 20px 0px 20px 100px;
+  border-radius: 8px;
+
+}
+
+#carrossel {
+  background-color: #247ba0;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+#titulo-carrossel {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+
+#div-cards {
+  margin-top: 25px;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  gap: 24px;
+  margin-left: 60px;
+}
+
+#seta-esquerda {
+  display: none;
+  margin-left: -35px;
+  margin-top: 60px;
+}
+
+#Leonardo {
+  display: none;
+
+}
+
+.seta {
+  margin-top: 50px;
+  cursor: pointer;
+  margin-left: -30px;
+}
+
+#seta-direita:hover {
+  transform: translateX(8px);
+  transition-duration: 0.5s;
+}
+
+#seta-esquerda:hover {
+  transform: translateX(-8px);
+  transition-duration: 0.5s;
+}
+
+#div-formulario {
+  text-align: center;
+  border-radius: 8px;
+}
+
+#titulo-formulario {
+  text-align: center;
+  color: #383838;
+  font-size: 25px;
+  margin: 25px;
+  border-radius: 8px;
+}
+
+input {
+  width: 300px;
+  height: 40px;
+  background-color: #eaece5;
+  margin: 15px;
+  color: #383838;
+  border: 0px;
+  border-radius: 8px;
+  padding-left: 10px;
+}
+
+button {
+  background-color: #247ba0;
+  color: #FFFFFF;
+  width: 270px;
+  height: 40px;
+  margin: 15px;
+  border: 0px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 50px;
+  font-weight: bolder;
+}
+
+button:hover {
+  background-color: #267a9e;
+  color: white !important;
+  transform: translateY(-4px);
+  transition-duration: 0.5s;
+  box-shadow: 0px 15px 20px #383838;
+}
